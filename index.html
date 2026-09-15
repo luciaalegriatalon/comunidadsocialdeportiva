@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Comunidad Social Deportiva</title>
+    <meta
+      name="description"
+      content="Proyectos de Comunidad Social Deportiva: deporte, educación, sostenibilidad y trabajo comunitario en la Ciudad de Buenos Aires."
+    >
+    <link rel="stylesheet" href="styles.css?v=20260915-sport-campaigns">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Comunidad Social Deportiva">
+        <img src="assets/logo-csd.png" alt="" class="brand__logo">
+        <span class="brand__text">Comunidad Social Deportiva</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="sr-only">Abrir menú</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+        <a href="conocenos.html">Conocenos</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="comunidad.html">Comunidad</a>
+        <a class="nav-cta" href="#colabora">Colaborá</a>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero" aria-label="Presentación">
+        <div class="slider" data-slider>
+          <div class="slide is-active" data-slide>
+            <img src="assets/slide-comunidad-1.jpeg" alt="Encuentro de fútbol infantil en una cancha comunitaria.">
+          </div>
+          <div class="slide" data-slide>
+            <img src="assets/slide-comunidad-2.jpg" alt="Niños y referentes reciben certificados y medallas en una actividad deportiva.">
+          </div>
+          <div class="slide" data-slide>
+            <img src="assets/slide-comunidad-3.jpeg" alt="Grupo de chicos, familias y referentes posan en una cancha al aire libre.">
+          </div>
+
+          <div class="hero__shade"></div>
+
+          <div class="hero__content">
+            <p class="eyebrow">Deporte, educación y comunidad</p>
+            <h1>Comunidad Social Deportiva</h1>
+            <p>
+              Impulsamos proyectos que conectan clubes, instituciones, empresas y profesionales
+              para transformar realidades desde el deporte.
+            </p>
+            <a class="button button--primary" href="#proyectos">Ver proyectos</a>
+          </div>
+
+          <button class="slider-button slider-button--prev" type="button" data-prev aria-label="Imagen anterior">
+            <span aria-hidden="true">&lsaquo;</span>
+          </button>
+          <button class="slider-button slider-button--next" type="button" data-next aria-label="Imagen siguiente">
+            <span aria-hidden="true">&rsaquo;</span>
+          </button>
+
+          <div class="slider-dots" aria-label="Seleccionar imagen">
+            <button class="slider-dot is-active" type="button" data-dot aria-label="Mostrar imagen 1"></button>
+            <button class="slider-dot" type="button" data-dot aria-label="Mostrar imagen 2"></button>
+            <button class="slider-dot" type="button" data-dot aria-label="Mostrar imagen 3"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro" id="comunidad">
+        <div class="section-inner intro__grid">
+          <div>
+            <p class="section-kicker">Sobre nosotros</p>
+            <h2>Un espacio integrador para potenciar el deporte como herramienta social.</h2>
+          </div>
+          <div class="intro__copy">
+            <p>
+              Reunimos clubes, federaciones, instituciones deportivas, empresas, profesionales y
+              miembros de la comunidad para generar impacto positivo en barrios, instituciones y
+              personas. Trabajamos desde una mirada deportiva, educativa, cultural y ambiental.
+            </p>
+            <p>
+              Ofrecemos una variedad de actividades y eventos tanto sociales como formativos para
+              producir puntos de encuentro entre las comunidades.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="proyectos">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Nuestro trabajo</p>
+            <h2>Proyectos en marcha</h2>
+            <p>
+              Iniciativas que articulan deporte, inclusión, formación y cuidado del entorno en
+              comunidades e instituciones de la Ciudad de Buenos Aires.
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <a class="project-card project-card--yellow" href="educacion.html" aria-label="Abrir Departamento de Educación">
+              <img src="assets/proyecto-alianzas.jpg" alt="Charla de formación institucional con referentes de clubes.">
+              <div class="project-card__body">
+                <span class="project-card__tag">Formación</span>
+                <h3>Departamento de Educación</h3>
+                <p>
+                  Creamos talleres y espacios de aprendizaje para dirigentes, familias,
+                  entrenadores y deportistas, fortaleciendo el valor educativo del deporte.
+                </p>
+              </div>
+            </a>
+
+            <a class="project-card project-card--blue" href="deporte.html" aria-label="Abrir Deporte Urbano">
+              <img src="assets/proyecto-deporte.jpeg" alt="Actividad deportiva comunitaria en una cancha.">
+              <div class="project-card__body">
+                <span class="project-card__tag">Deporte</span>
+                <h3>Deporte Urbano</h3>
+                <p>
+                  El deporte urbano como forma de habitar, transformar y compartir la ciudad.
+                </p>
+              </div>
+            </a>
+
+            <article class="project-card project-card--green">
+              <img src="assets/proyecto-huerta.jpeg" alt="Jornada comunitaria al aire libre.">
+              <div class="project-card__body">
+                <span class="project-card__tag">Salud</span>
+                <h3>Salud comunitaria</h3>
+                <p>
+                  Promovemos hábitos saludables, cuidado integral y espacios de acompañamiento
+                  para fortalecer el bienestar de la comunidad.
+                </p>
+              </div>
+            </article>
+
+            <a class="project-card project-card--red" href="solidaridad.html" aria-label="Abrir campaña La solidaridad es nuestro mejor abrigo">
+              <img src="assets/proyecto-abrigo.jpeg" alt="Entrega de donaciones durante la campaña de abrigo.">
+              <div class="project-card__body">
+                <span class="project-card__tag">Solidaridad</span>
+                <h3>La solidaridad es nuestro mejor abrigo</h3>
+                <p>
+                  Junto a Tendiendo Puentes y Tierra, Techo y Trabajo impulsamos colectas para que
+                  las redes deportivas, sociales y culturales respondan a necesidades concretas.
+                </p>
+              </div>
+            </a>
+
+            <article class="project-card project-card--blue">
+              <img src="assets/proyecto-running.jpg" alt="Entrenamiento abierto de running en un espacio verde.">
+              <div class="project-card__body">
+                <span class="project-card__tag">Movimiento</span>
+                <h3>Todo Movimiento Cuenta</h3>
+                <p>
+                  Acompañamos actividades que amplían la posibilidad de practicar deporte y
+                  fortalecen disciplinas emergentes desde una perspectiva inclusiva.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="impact">
+        <div class="section-inner impact__grid">
+          <div class="impact__item">
+            <strong>25+</strong>
+            <span>clubes articulados</span>
+          </div>
+          <div class="impact__item">
+            <strong>4</strong>
+            <span>ejes de trabajo</span>
+          </div>
+          <div class="impact__item">
+            <strong>CABA</strong>
+            <span>territorio de acción</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="collaborate" id="colabora">
+        <div class="section-inner collaborate__grid">
+          <div>
+            <p class="section-kicker">Colaborá</p>
+            <h2>Sumá tu institución, empresa o equipo profesional.</h2>
+          </div>
+          <div class="collaborate__copy">
+            <p>
+              Trabajamos con organizaciones que quieran aportar recursos, conocimiento,
+              espacios o tiempo para acompañar proyectos deportivos, educativos, culturales
+              y ambientales.
+            </p>
+            <p>
+              Cada alianza se construye a partir de necesidades concretas y objetivos comunes,
+              con foco en generar impacto positivo en la comunidad.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-inner footer__grid">
+        <div class="footer__brand">
+          <img src="assets/logo-csd-footer-cropped.png" alt="Comunidad Social Deportiva" class="footer__signature">
+          <p>Deporte, educación, cultura y ambiente en red.</p>
+        </div>
+        <div class="footer__contact">
+          <p class="footer__label">Contactanos</p>
+          <div class="footer__socials" aria-label="Canales de contacto">
+            <span class="footer__social-link" role="img" aria-label="WhatsApp" title="WhatsApp">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5.3 19.1 6.2 16A7.7 7.7 0 1 1 8 17.7l-2.7 1.4Z"></path>
+                <path d="M9.4 8.6c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.6c.1.3.1.5-.1.7l-.4.5c.5.9 1.2 1.6 2.1 2.1l.5-.4c.2-.2.5-.2.7-.1l1.6.7c.3.1.4.3.4.6v.5c0 .3-.1.5-.4.7-.5.4-1.1.6-1.8.6-2.9 0-6.8-3.9-6.8-6.8 0-.7.2-1.3.6-1.8Z"></path>
+              </svg>
+            </span>
+            <span class="footer__social-link" role="img" aria-label="Mail" title="Mail">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                <path d="m4 7 7 5a2 2 0 0 0 2 0l7-5"></path>
+              </svg>
+            </span>
+            <a class="footer__social-link" href="https://www.instagram.com/comunidadsocialdeportiva.ok/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                <circle cx="12" cy="12" r="4"></circle>
+                <path d="M17.5 6.5h.01"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
