@@ -1200,8 +1200,29 @@ button {
   max-width: 430px;
 }
 
+.footer__federation {
+  flex: 0 1 300px;
+  text-align: center;
+  transform: translateX(-100px);
+}
+
+.footer__federation-logo {
+  display: block;
+  width: 96px;
+  height: auto;
+  margin: 0 auto 8px;
+  object-fit: contain;
+}
+
+.footer__federation p {
+  color: var(--ink-muted);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
 .footer__signature {
-  width: min(260px, 100%);
+  width: min(200px, 100%);
   height: auto;
   object-fit: contain;
 }
@@ -1211,9 +1232,9 @@ button {
 }
 
 .footer__brand p {
-  margin-top: 14px;
+  margin-top: 8px;
   color: var(--ink-muted);
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
 }
 
@@ -1571,6 +1592,12 @@ button {
   .footer__grid {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .footer__federation {
+    flex: none;
+    align-self: center;
+    transform: none;
   }
 
   .footer__contact {
