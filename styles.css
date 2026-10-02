@@ -1208,17 +1208,10 @@ button {
 
 .footer__federation-logo {
   display: block;
-  width: 96px;
+  width: 150px;
   height: auto;
-  margin: 0 auto 8px;
+  margin: 0 auto;
   object-fit: contain;
-}
-
-.footer__federation p {
-  color: var(--ink-muted);
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.4;
 }
 
 .footer__signature {
