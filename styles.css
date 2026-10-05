@@ -185,6 +185,11 @@ button {
   inset: 0;
 }
 
+.slider,
+.campaign-slider {
+  touch-action: pan-y pinch-zoom;
+}
+
 .slide {
   opacity: 0;
   transition: opacity 600ms ease;
@@ -1003,7 +1008,7 @@ button {
   color: var(--green);
 }
 
-.social-feature__copy h3 {
+.social-feature__copy h2 {
   max-width: 660px;
   margin: 10px 0 18px;
   color: var(--ink);
@@ -1208,7 +1213,7 @@ button {
 
 .footer__federation-logo {
   display: block;
-  width: 150px;
+  width: 86px;
   height: auto;
   margin: 0 auto;
   object-fit: contain;
@@ -1222,13 +1227,6 @@ button {
 
 .site-footer p {
   margin: 0;
-}
-
-.footer__brand p {
-  margin-top: 8px;
-  color: var(--ink-muted);
-  font-size: 14px;
-  font-weight: 700;
 }
 
 .footer__contact {
@@ -1476,7 +1474,7 @@ button {
   .section-heading h2,
   .story h2,
   .community-content h2,
-  .social-feature__copy h3,
+  .social-feature__copy h2,
   .urban-sport__intro h2,
   .campaign-detail__subtitle,
   .mission h2,
@@ -1583,21 +1581,59 @@ button {
   }
 
   .footer__grid {
-    align-items: flex-start;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 28px 20px;
+  }
+
+  .footer__brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+  }
+
+  .footer__signature {
+    width: min(100%, 170px);
   }
 
   .footer__federation {
     flex: none;
-    align-self: center;
+    min-width: 0;
     transform: none;
   }
 
+  .footer__federation-logo {
+    width: min(100%, 73px);
+    max-height: 92px;
+  }
+
   .footer__contact {
-    text-align: left;
+    grid-column: 1 / -1;
+    text-align: center;
   }
 
   .footer__socials {
-    justify-content: flex-start;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .site-footer {
+    padding: 34px 0;
+  }
+
+  .footer__grid {
+    gap: 24px 16px;
+  }
+
+  .footer__signature {
+    width: min(100%, 145px);
+  }
+
+  .footer__federation-logo {
+    width: min(100%, 62px);
+    max-height: 78px;
   }
 }

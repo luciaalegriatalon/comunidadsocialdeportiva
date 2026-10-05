@@ -23,6 +23,11 @@ sliders.forEach((slider) => {
   const nextButton = slider.querySelector("[data-next]");
   let activeIndex = Math.max(0, slides.findIndex((slide) => slide.classList.contains("is-active")));
   let autoplayId;
+  let didSwipe = false;
+  let swipeStartX = null;
+  let swipeStartY = null;
+
+  const swipeThreshold = 44;
 
   function setActiveSlide(index) {
     activeIndex = (index + slides.length) % slides.length;
@@ -75,6 +80,53 @@ sliders.forEach((slider) => {
       restartAutoplay();
     });
   });
+
+  slider.addEventListener("pointerdown", (event) => {
+    if (event.pointerType === "mouse" && event.button !== 0) {
+      return;
+    }
+
+    swipeStartX = event.clientX;
+    swipeStartY = event.clientY;
+    didSwipe = false;
+    window.clearInterval(autoplayId);
+  });
+
+  slider.addEventListener("pointerup", (event) => {
+    if (swipeStartX === null || swipeStartY === null) {
+      return;
+    }
+
+    const distanceX = event.clientX - swipeStartX;
+    const distanceY = event.clientY - swipeStartY;
+
+    swipeStartX = null;
+    swipeStartY = null;
+
+    if (Math.abs(distanceX) >= swipeThreshold && Math.abs(distanceX) > Math.abs(distanceY)) {
+      didSwipe = true;
+      setActiveSlide(activeIndex + (distanceX < 0 ? 1 : -1));
+      window.setTimeout(() => {
+        didSwipe = false;
+      }, 0);
+    }
+
+    restartAutoplay();
+  });
+
+  slider.addEventListener("pointercancel", () => {
+    swipeStartX = null;
+    swipeStartY = null;
+    restartAutoplay();
+  });
+
+  slider.addEventListener("click", (event) => {
+    if (didSwipe) {
+      event.preventDefault();
+      event.stopPropagation();
+      didSwipe = false;
+    }
+  }, true);
 
   startAutoplay();
 });
