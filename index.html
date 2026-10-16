@@ -8,9 +8,10 @@
       name="description"
       content="Proyectos de Comunidad Social Deportiva: deporte, social y salud para transformar comunidades en la Ciudad de Buenos Aires."
     >
-    <link rel="stylesheet" href="styles.css?v=20261005">
+    <link rel="stylesheet" href="styles.css?v=20261016-3">
   </head>
   <body>
+    <a class="skip-link" href="#inicio">Saltar al contenido principal</a>
     <header class="site-header" data-header>
       <a class="brand" href="#inicio" aria-label="Comunidad Social Deportiva">
         <img src="assets/logo-csd.png" alt="" class="brand__logo">
@@ -28,21 +29,21 @@
         <a href="conocenos.html">Conocenos</a>
         <a href="#proyectos">Proyectos</a>
         <a href="comunidad.html">Comunidad</a>
-        <a class="nav-cta" href="#colabora">Colaborá</a>
+        <a class="nav-cta" href="colabora.html">Colaborá</a>
       </nav>
     </header>
 
-    <main id="inicio">
+    <main id="inicio" tabindex="-1">
       <section class="hero" aria-label="Presentación">
         <div class="slider" data-slider>
           <div class="slide is-active" data-slide>
-            <img src="assets/slide-comunidad-1.jpeg" alt="Encuentro de fútbol infantil en una cancha comunitaria.">
+            <img src="assets/slide-comunidad-1.jpeg" alt="Niños y entrenadores participan de un encuentro de fútbol en una cancha comunitaria.">
           </div>
           <div class="slide" data-slide>
-            <img src="assets/slide-comunidad-2.jpg" alt="Niños y referentes reciben certificados y medallas en una actividad deportiva.">
+            <img src="assets/slide-comunidad-2.jpg" alt="Niños y referentes exhiben certificados y medallas al finalizar una actividad deportiva.">
           </div>
           <div class="slide" data-slide>
-            <img src="assets/slide-comunidad-3.jpeg" alt="Grupo de chicos, familias y referentes posan en una cancha al aire libre.">
+            <img src="assets/slide-comunidad-3.jpeg" alt="Niños, familias y referentes posan juntos después de un encuentro de fútbol comunitario.">
           </div>
 
           <div class="hero__shade"></div>
@@ -105,8 +106,8 @@
           </div>
 
           <div class="project-grid">
-            <a class="project-card project-card--blue" href="deporte.html" aria-label="Abrir Deporte Urbano">
-              <img src="assets/proyecto-deporte.jpeg" alt="Actividad deportiva comunitaria en una cancha.">
+            <a class="project-card project-card--blue" href="deporte.html">
+              <img src="assets/proyecto-deporte.jpeg" alt="Jóvenes asisten a una charla de formación con referentes deportivos.">
               <div class="project-card__body">
                 <h3>Deporte</h3>
                 <p>
@@ -117,8 +118,8 @@
               </div>
             </a>
 
-            <a class="project-card project-card--green" href="social.html" aria-label="Abrir área Social">
-              <img src="assets/proyecto-alianzas.jpg" alt="Charla de formación institucional con referentes de clubes.">
+            <a class="project-card project-card--green" href="social.html">
+              <img src="assets/proyecto-alianzas.jpg" alt="Representantes de clubes participan de una capacitación institucional.">
               <div class="project-card__body">
                 <h3>Social</h3>
                 <p>
@@ -128,8 +129,8 @@
               </div>
             </a>
 
-            <a class="project-card project-card--red" href="salud.html" aria-label="Abrir área Salud">
-              <img src="assets/proyecto-huerta.jpeg" alt="Jornada comunitaria al aire libre.">
+            <a class="project-card project-card--red" href="salud.html">
+              <img src="assets/proyecto-huerta.jpeg" alt="Personas preparan canteros durante una jornada comunitaria de huerta.">
               <div class="project-card__body">
                 <h3>Salud</h3>
                 <p>
@@ -148,8 +149,8 @@
             </div>
 
             <div class="campaign-card-grid">
-              <a class="campaign-card campaign-card--green" href="solidaridad.html" aria-label="Abrir campaña La solidaridad es nuestro mejor abrigo">
-                <img src="assets/proyecto-abrigo.jpeg" alt="Entrega de donaciones durante la campaña de abrigo.">
+              <a class="campaign-card campaign-card--green" href="solidaridad.html">
+                <img src="assets/proyecto-abrigo.jpeg" alt="Integrantes de un club reciben una caja de donaciones de la campaña de abrigo.">
                 <div class="campaign-card__body">
                   <span>Social</span>
                   <h3>La solidaridad es nuestro mejor abrigo</h3>
@@ -160,8 +161,8 @@
                 </div>
               </a>
 
-              <a class="campaign-card campaign-card--blue" href="deporte.html#todo-movimiento-cuenta" aria-label="Abrir campaña Todo Movimiento Cuenta">
-                <img src="assets/proyecto-running.jpg" alt="Entrenamiento abierto de running en un espacio verde.">
+              <a class="campaign-card campaign-card--blue" href="deporte.html#todo-movimiento-cuenta">
+                <img src="assets/proyecto-running.jpg" alt="Grupo de personas realiza ejercicios al aire libre en Todo Movimiento Cuenta.">
                 <div class="campaign-card__body">
                   <span>Deporte</span>
                   <h3>Todo Movimiento Cuenta</h3>
@@ -209,6 +210,9 @@
               Cada alianza se construye a partir de necesidades concretas y objetivos comunes,
               con foco en generar impacto positivo en la comunidad.
             </p>
+            <a class="button button--primary collaborate__action" href="colabora.html">
+              Ver formas de colaborar
+            </a>
           </div>
         </div>
       </section>
@@ -247,8 +251,13 @@
           </div>
         </div>
       </div>
+      <div class="section-inner footer__legal">
+        <span>© 2026 Comunidad Social Deportiva</span>
+        <a href="politica-privacidad.html">Política de privacidad</a>
+        <a href="terminos-uso.html">Términos de uso</a>
+      </div>
     </footer>
 
-    <script src="script.js?v=20261005"></script>
+    <script src="script.js?v=20261016-3"></script>
   </body>
 </html>
