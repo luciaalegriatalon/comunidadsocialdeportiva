@@ -68,15 +68,31 @@ En el sitio actual no se detectaron herramientas de analítica, publicidad ni co
 6. ¿Cómo se explicará el destino general de los fondos?
 7. ¿Se recibirán únicamente donaciones de dinero o también bienes y materiales?
 8. ¿Existen condiciones para aceptar o rechazar determinados bienes o aportes?
+9. Cuando una donación se dirige a un proyecto junto a otra institución, ¿la recibe Comunidad Social Deportiva o puede entregarse directamente a esa institución?
+10. ¿Cómo se informará a la persona donante que el aporte fue recibido y, cuando corresponda, destinado al proyecto elegido?
+11. Para las donaciones no direccionadas, ¿quién decide a qué proyecto se asignan y con qué criterios?
+12. ¿Qué información e informes podrá publicar la organización para rendir cuentas sobre los aportes recibidos?
+
+### Criterio institucional confirmado para explicar las donaciones
+
+La responsable del proyecto confirmó este criterio. Se incorporó una versión editada para lectura web en la página “Colaborá”, manteniendo claro cuándo el aporte lo recibe Comunidad Social Deportiva y cuándo puede dirigirse directamente a una institución asociada:
+
+> Las donaciones van a los proyectos de la institución, hay donaciones direccionadas a determinados proyectos como Reyes magos, Unidos de pompeya, escuela de oficio o Iniciativas de accesibilidad / discapacidad. Colaboramos con instituciones en los proyectos mencionados, muchas veces la donación puede ser direccionada directamente a la institución con la que los realizamos. Ya que el objetivo de comunidad es potenciar las instituciones y los proyectos sociales, educativos, deportivos y culturales que generan.
+>
+> Los aportes que no son direccionados son recibidos directo por Comunidad y contemplandose tanto las posibilidades como las necesidades y a partir de ahí se dirigen a los proyectos idóneos.
+>
+> Las donaciones pueden ser tanto en dinero como en productos.
+
+Queda por definir si se aceptan productos todo el año o según campañas y cómo se coordina su entrega. El uso del logo de la Federación de Clubes está autorizado.
 
 ## 7. Contenidos, imágenes y propiedad intelectual
 
 1. ¿La organización es titular de las fotografías publicadas?
 2. ¿Cuenta con autorizaciones para publicar imágenes de personas adultas?
-3. ¿Cuenta con autorizaciones de responsables legales para imágenes de menores?
+3. ¿Cuenta con autorización de madres, padres o responsables legales para publicar cada imagen identificable de niñas, niños y adolescentes? ¿Quién conserva esas autorizaciones y cómo se atienden pedidos para retirar una imagen?
 4. ¿Quién es titular del nombre, logotipo y demás elementos de marca?
 5. ¿Se permitirá reutilizar contenidos con autorización o bajo alguna licencia?
-6. ¿Hay instituciones asociadas cuyos logotipos requieran condiciones especiales de uso?
+6. El uso del logo de la Federación de Clubes está autorizado. ¿Hay otras instituciones asociadas cuyos logotipos requieran autorización o condiciones especiales de uso?
 
 ## 8. Condiciones legales generales
 

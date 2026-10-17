@@ -1363,6 +1363,33 @@ button {
   gap: 70px;
 }
 
+.donation-guidance {
+  padding: 76px 0;
+  background: var(--paper);
+}
+
+.donation-guidance__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: 68px;
+}
+
+.donation-guidance h2 {
+  margin: 8px 0 0;
+  font-size: 38px;
+  line-height: 1.08;
+}
+
+.donation-guidance__copy p {
+  margin: 0;
+  color: var(--ink-muted);
+  line-height: 1.65;
+}
+
+.donation-guidance__copy p + p {
+  margin-top: 18px;
+}
+
 .collaboration-process h2,
 .contact-section h2 {
   margin: 10px 0 0;
@@ -1857,6 +1884,7 @@ button {
   }
 
   .collaboration-process__grid,
+  .donation-guidance__grid,
   .contact-section__grid {
     grid-template-columns: 1fr;
     gap: 38px;
@@ -1918,6 +1946,7 @@ button {
   .collaborate,
   .collaboration-options,
   .collaboration-process,
+  .donation-guidance,
   .contact-section {
     padding: 54px 0;
   }
@@ -1932,6 +1961,7 @@ button {
   .mission h2,
   .collaborate h2,
   .collaboration-process h2,
+  .donation-guidance h2,
   .contact-section h2 {
     font-size: 30px;
   }
