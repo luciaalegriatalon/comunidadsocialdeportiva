@@ -700,6 +700,17 @@ button {
   margin-top: 18px;
 }
 
+.institutional-partner {
+  padding: 0 0 72px;
+  background: var(--paper);
+}
+
+.institutional-partner h2 {
+  margin: 8px 0 14px;
+  font-size: clamp(28px, 4vw, 38px);
+  line-height: 1.08;
+}
+
 .community-content__copy h3 {
   margin: 34px 0 14px;
   color: var(--ink);
@@ -1527,6 +1538,13 @@ button {
   max-width: 430px;
 }
 
+.footer__registration {
+  margin-top: 10px !important;
+  color: var(--ink-muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 .footer__federation {
   flex: 0 1 300px;
   text-align: center;
@@ -1541,6 +1559,12 @@ button {
   object-fit: contain;
 }
 
+.footer__partner-label {
+  margin-top: 10px !important;
+  color: var(--ink-muted);
+  font-size: 13px;
+}
+
 .footer__signature {
   width: min(200px, 100%);
   height: auto;
@@ -1552,7 +1576,7 @@ button {
 }
 
 .footer__contact {
-  text-align: right;
+  text-align: center;
 }
 
 .footer__label {
@@ -1561,7 +1585,7 @@ button {
 
 .footer__socials {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 12px;
   margin-top: 16px;
 }
@@ -1621,6 +1645,31 @@ button {
 }
 
 .footer__legal a:hover {
+  color: var(--blue);
+}
+
+.footer__navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 10px;
+  margin-bottom: 28px;
+}
+
+.footer__navigation a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  padding: 8px 10px;
+  color: var(--ink-muted);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.footer__navigation a:hover {
   color: var(--blue);
 }
 
@@ -2021,6 +2070,7 @@ button {
 
   .footer__brand {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-width: 0;
